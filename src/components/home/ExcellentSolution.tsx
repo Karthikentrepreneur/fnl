@@ -6,11 +6,11 @@ const ExcellentSolution = () => {
     title: "Strong Partnerships",
     description: "Close working relationships with customers for comprehensive supply chain management"
   }, {
-    icon: <Eye className="w-8 h-8 text-primary" />,
+    icon: <Eye className="w-8 h-8 text-secondary-foreground" />,
     title: "Total Visibility",
     description: "Customer and partner portals providing integrated processes and transparency"
   }, {
-    icon: <Shield className="w-8 h-8 text-primary" />,
+    icon: <Shield className="w-8 h-8 text-secondary-foreground" />,
     title: "Cost-Effective",
     description: "Continuously providing cost-effective transportation and logistics solutions"
   }, {
