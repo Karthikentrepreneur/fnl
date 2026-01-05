@@ -59,7 +59,7 @@ const Memberships = () => {
           delay: index * 0.1
         }} viewport={{
           once: true
-        }} className="p-4 transition-shadow shadow-none bg-muted">
+        }} className="p-4 transition-shadow shadow-none bg-inherit">
               <img src={cert.src} alt={cert.alt} className="h-16 md:h-20 w-auto object-contain" />
             </motion.div>)}
         </motion.div>
