@@ -4,22 +4,23 @@ import { Footer } from '@/components/layout/Footer';
 import { motion } from 'framer-motion';
 import { Globe, Clock, Users, Award, Target, Eye } from 'lucide-react';
 import Memberships from '@/components/home/Memberships';
-
 const About = () => {
-  return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+  return <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
 
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-r from-brand-navy to-brand-navy/90 text-white px-6 mt-16">
           <div className="max-w-7xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-center"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            y: 30
+          }} animate={{
+            opacity: 1,
+            y: 0
+          }} transition={{
+            duration: 0.8
+          }} className="text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-slate-50">
                 About <span className="text-secondary-foreground">Us</span>
               </h1>
@@ -34,12 +35,17 @@ const About = () => {
         <section className="py-20 px-6 bg-gray-50">
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-              >
+              <motion.div initial={{
+              opacity: 0,
+              x: -30
+            }} whileInView={{
+              opacity: 1,
+              x: 0
+            }} transition={{
+              duration: 0.8
+            }} viewport={{
+              once: true
+            }}>
                 <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                   <p className="text-base">
                     Future Net Logistics LLC is an international freight forwarder and logistics provider with headquarter in Dubai & branch offices in Jebel Ali & Abu Dhabi (UAE). We offer premium logistics services to businesses worldwide, and a wide range of international and domestic transportation and logistics services. Our personal service and expert knowledge of freight forwarding is unrivaled.
@@ -67,19 +73,19 @@ const About = () => {
                 </div>
               </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0, x: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-                className="relative"
-              >
+              <motion.div initial={{
+              opacity: 0,
+              x: 30
+            }} whileInView={{
+              opacity: 1,
+              x: 0
+            }} transition={{
+              duration: 0.8
+            }} viewport={{
+              once: true
+            }} className="relative">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img
-                    alt="Future Net Logistics LLC"
-                    className="w-full h-[500px] object-cover"
-                    src="/lovable-uploads/5393fdcb-7f92-46b2-81be-d1997d8dc3a6.jpg"
-                  />
+                  <img alt="Future Net Logistics LLC" className="w-full h-[500px] object-cover" src="/lovable-uploads/5393fdcb-7f92-46b2-81be-d1997d8dc3a6.jpg" />
                 </div>
               </motion.div>
             </div>
@@ -90,13 +96,17 @@ const About = () => {
         <section className="py-20 bg-white px-6">
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-                className="bg-brand-navy p-8 rounded-xl text-white"
-              >
+              <motion.div initial={{
+              opacity: 0,
+              y: 20
+            }} whileInView={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.8
+            }} viewport={{
+              once: true
+            }} className="bg-brand-navy p-8 rounded-xl text-white">
                 <div className="flex items-center gap-3 mb-4">
                   <Eye className="w-8 h-8 text-white" />
                   <h3 className="text-2xl font-bold text-primary-foreground">01 Vision</h3>
@@ -106,13 +116,18 @@ const About = () => {
                 </p>
               </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.1 }}
-                viewport={{ once: true }}
-                className="bg-brand-green p-8 rounded-xl text-white"
-              >
+              <motion.div initial={{
+              opacity: 0,
+              y: 20
+            }} whileInView={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.8,
+              delay: 0.1
+            }} viewport={{
+              once: true
+            }} className="bg-brand-green p-8 rounded-xl text-white">
                 <div className="flex items-center gap-3 mb-4">
                   <Target className="w-8 h-8 text-white" />
                   <h3 className="text-2xl font-bold text-primary-foreground">02 Mission</h3>
@@ -126,12 +141,10 @@ const About = () => {
         </section>
 
         {/* Memberships */}
-        <Memberships />
+        <Memberships className="bg-primary-foreground" />
       </main>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default About;
