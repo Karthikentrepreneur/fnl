@@ -93,7 +93,7 @@ const About = () => {
         </section>
 
         {/* Vision & Mission */}
-        <section className="py-20 bg-white px-6">
+        <section className="py-20 px-6 bg-primary-foreground">
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <motion.div initial={{
