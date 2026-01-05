@@ -85,7 +85,7 @@ const About = () => {
               once: true
             }} className="relative">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img alt="Future Net Logistics LLC" className="w-full h-[500px] object-cover" src="/lovable-uploads/5393fdcb-7f92-46b2-81be-d1997d8dc3a6.jpg" />
+                  <img alt="Future Net Logistics LLC" src="/lovable-uploads/3bef2139-4e0b-4318-ba72-2974fdf4531b.jpg" className="w-full h-[800px] object-cover" />
                 </div>
               </motion.div>
             </div>
