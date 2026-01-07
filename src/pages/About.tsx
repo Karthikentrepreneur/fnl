@@ -109,7 +109,7 @@ const About = () => {
             }} className="bg-brand-navy p-8 rounded-xl text-white">
                 <div className="flex items-center gap-3 mb-4">
                   <Eye className="w-8 h-8 text-white" />
-                  <h3 className="text-2xl font-bold text-primary-foreground">01 Vision</h3>
+                  <h3 className="text-2xl font-bold text-primary-foreground">Vision</h3>
                 </div>
                 <p className="text-white/90">
                   FUTURE NET, to be the leading global logistics solution provider thru our most advanced systems combined with well experienced logistics professionals.
@@ -130,7 +130,7 @@ const About = () => {
             }} className="bg-brand-green p-8 rounded-xl text-white">
                 <div className="flex items-center gap-3 mb-4">
                   <Target className="w-8 h-8 text-white" />
-                  <h3 className="text-2xl font-bold text-primary-foreground">02 Mission</h3>
+                  <h3 className="text-2xl font-bold text-primary-foreground">Mission</h3>
                 </div>
                 <p className="text-white/90">
                   FUTURE NET, to be customers first choice for following services: Customised logistics solutions with integrated processes with clients thru our most advanced WMS & distribution module with e-commerce capability. FCL, LCL, Air Freight & Freight Management, Liquid Transportation solutions Projects & Break Bulk.
