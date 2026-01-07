@@ -80,51 +80,10 @@ const AirFreight = () => {
                 Comprehensive Air Freight Services
               </h2>
               <div className="w-24 h-1 bg-brand-gold mx-auto mb-8"></div>
-              <p className="text-gray-700 mb-6 font-normal text-justify">At Future Net, we offer a comprehensive range of air freight solutions tailored to meet your time-sensitive and high-priority shipping needs. Our expert air freight teams handle air import, export, and express shipments with precision, offering seamless door-to-door services across global trade lanes.</p>
+              <p className="text-gray-700 mb-6 font-normal text-justify">As one of the leading independent airfreight company, we provide more flexibility, choice worldwide by working in partnership with an extensive range of specialist carriers who provide customized schedules and solutions. Our Directors and Managers are hands-on and work closely with our staff to provide an integrated highly professional service to our clients.</p>
+              <p className="text-gray-700 mb-6 font-normal text-justify">The company through its extensive worldwide network have established a fast and efficient airfreight product which translates into a cost-efficient and fast movement of cargo to and from worldwide markets.</p>
+              <p className="text-gray-700 mb-6 font-normal text-justify">Future Net Logistics LLC can provide customized sea-air & air-sea options to meet customer's deadline/timeliness and achieve cost savings. The company handles the airfreight consolidation on many major routes through its efficient worldwide network.</p>
             </div>
-            
-            {/* Features Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
-              {[{
-              icon: <Clock className="h-10 w-10 text-brand-gold" />,
-              title: "Time-Definite Deliveries",
-              description: "Flexible options including next-flight-out, express, and deferred services to meet critical timelines."
-            }, {
-              icon: <Plane className="h-10 w-10 text-brand-gold" />,
-              title: "Cargo Consolidation",
-              description: "Efficient consolidation services to optimize costs and reduce handling time."
-            }, {
-              icon: <Globe className="h-10 w-10 text-brand-gold" />,
-              title: "Specialized Handling",
-              description: "Capabilities to manage high-value, sensitive, or perishable cargo with care and compliance."
-            }, {
-              icon: <Clock className="h-10 w-10 text-brand-gold" />,
-              title: "Real-Time Shipment Tracking",
-              description: "Full visibility and status updates through integrated tracking systems."
-            }, {
-              icon: <Headset className="h-10 w-10 text-brand-gold" />,
-              title: "Customs Clearance Support",
-              description: "End-to-end handling of documentation, customs brokerage, and compliance to streamline international transit."
-            }].map((feature, index) => <motion.div key={index} initial={{
-              opacity: 0,
-              y: 20
-            }} whileInView={{
-              opacity: 1,
-              y: 0
-            }} transition={{
-              duration: 0.5,
-              delay: index * 0.1
-            }} viewport={{
-              once: true
-            }} className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
-                  <div className="mb-4 bg-green-50 p-3 rounded-full inline-block">{feature.icon}</div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.description}</p>
-                </motion.div>)}
-            </div>
-            
-            {/* Additional Services */}
-            
             
             {/* CTA Section */}
             <motion.div initial={{

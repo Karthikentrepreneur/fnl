@@ -77,25 +77,23 @@ const OceanFreight = () => {
         {/* Main Content */}
         <section className="py-12 md:py-16">
           <div className="container mx-auto px-4">
+            {/* FCL Services */}
             <div className="max-w-3xl mx-auto mb-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-gray-800">
-                Comprehensive Ocean Freight Services
+                FCL Services
               </h2>
               <div className="w-24 h-1 bg-brand-gold mx-auto mb-8" />
-              <p className="text-gray-700 mb-6 text-justify">At Future Net, our dedicated Ocean Freight Department specializes in comprehensive freight management services for both Less-than-Container Load (LCL) and Full Container Load (FCL) shipments. Leveraging a well-established, reliable global partner network, we ensure efficient coordination of every step—from collection at the shipper's door, through secure storage and customs brokerage, to timely delivery at the consignee's door. Our end-to-end service seamlessly integrates customs clearance and compliance, minimizing delays and ensuring smooth transit across borders.</p>
-              <p className="text-gray-700 mb-6 text-justify">We offer a broad range of scheduled and multi-route services that connect key
-global economies, providing flexible options to meet diverse shipping needs. Our
-specialized Carrier Pricing Department works closely with clients to design
-customized freight solutions tailored to specific transit times, cost targets, and
-cargo requirements, ensuring optimal value and performance.</p>
-              <p className="text-gray-700 mb-6 text-justify">Transparency and communication are core to our service philosophy. Through a
-user-friendly, menu-driven tracking system, clients can select which shipment
-milestones they wish to be notified about, avoiding unnecessary alerts while
-keeping them informed of critical updates. This personalized approach to
+              <p className="text-gray-700 mb-6 text-justify">FCL is the most optimized container shipping way regarding cost, volume and weight of the cargo. We take special care at each step of the process which involves fixing contract pricing with carriers, reserving space, make booking, picking up empty container at the container depot, loading at shipper facility, transporting by truck / rail to the port and vessel loading, monitor vessel schedule till final delivery to consignee. For import bookings we engage our overseas partners in the absence of our own network and monitor each steps and keep our customers / consignees informed at all stages.</p>
+            </div>
 
-communication enhances visibility and peace of mind throughout the shipping
-process.</p>
-              <p className="text-gray-700 mb-6 text-justify">Backed by extensive industry expertise and a commitment to excellence, Future Net Ocean Freight Department delivers reliable, efficient, and cost-effective global shipping solutions designed to support your business growth and logistics needs.</p>
+            {/* LCL Services */}
+            <div className="max-w-3xl mx-auto mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-gray-800">
+                LCL Services
+              </h2>
+              <div className="w-24 h-1 bg-brand-gold mx-auto mb-8" />
+              <p className="text-gray-700 mb-6 text-justify">Future Net Logistics LLC operate own consolidation service on many trade routes. With its vast network of consolidators, the company is able to provide competitive price with multiple options of sailing. With regular consolidation boxes to important trade lanes, the company has the advantage of accommodating cargo which requires timely deliveries.</p>
+              <p className="text-gray-700 mb-6 text-justify">Future Net Logistics LLC Provide complete transparency of all the pricing at the origin, destination and ocean freight charges.</p>
             </div>
 
             {/* CTA Section */}

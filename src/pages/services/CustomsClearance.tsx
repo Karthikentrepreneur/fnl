@@ -78,86 +78,15 @@ const CustomsClearance = () => {
               </h2>
               <div className="w-24 h-1 bg-brand-gold mx-auto mb-8"></div>
               <p className="text-gray-700 mb-6 text-justify">
-                Navigating the complexities of global trade is simplified with our expert customs clearance services. We ensure your shipments move smoothly across borders, handling all aspects of the process from accurate documentation and tariff classification to regulatory compliance and specialized cargo handling.
+                As one of the leading custom clearing agents, we ensure that all clearance formalities are done in a smooth and easy manner so that all our customers receive their goods on time. Our customs brokers help ease import and export regulations and all paperwork related to trade compliances and procedures to ensure that your consignments via sea and air leave on time.
+              </p>
+              <p className="text-gray-700 mb-6 text-justify">
+                It is our well-experienced team that makes us the best and leading customs clearing agents as our professionals carry out a complete study of all the local rules and regulations to help our clients overcome the complex matters of trade compliances. It is our ability in identifying demand and changing challenges in business that makes us the best to help you take care of all your paper works thereby ensuring the smooth flow of your business operations.
               </p>
               <p className="text-gray-700 text-justify">
-                Our experienced team stays abreast of evolving regulations, leverages advanced technology for expedited clearance, and maintains strong relationships with customs authorities worldwide. We prioritize transparency and open communication, providing real-time updates and peace of mind, allowing you to focus on your core business.
+                With all the required documents in place, our professionals also ensure end-to-end solutions for both Import and Export Customs Clearance.
               </p>
             </div>
-            
-            {/* Features Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-              <motion.div initial={{
-              opacity: 0,
-              y: 20
-            }} whileInView={{
-              opacity: 1,
-              y: 0
-            }} transition={{
-              duration: 0.5
-            }} viewport={{
-              once: true
-            }} className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100">
-                <div className="h-48 bg-gradient-to-br from-primary to-green-600 flex items-center justify-center">
-                  <FileCheck className="h-16 w-16 text-white" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Documentation Expertise</h3>
-                  <p className="text-gray-600 text-justify">
-                    Our team ensures all your customs documentation is accurate, complete, and submitted correctly, preventing delays and ensuring compliance with international regulations.
-                  </p>
-                </div>
-              </motion.div>
-              
-              <motion.div initial={{
-              opacity: 0,
-              y: 20
-            }} whileInView={{
-              opacity: 1,
-              y: 0
-            }} transition={{
-              duration: 0.5,
-              delay: 0.1
-            }} viewport={{
-              once: true
-            }} className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100">
-                <div className="h-48 bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
-                  <ShieldCheck className="h-16 w-16 text-white" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Regulatory Compliance</h3>
-                  <p className="text-gray-600 text-justify">
-                    Stay compliant with constantly evolving international trade regulations. We keep up-to-date with changes to ensure your shipments meet all legal requirements.
-                  </p>
-                </div>
-              </motion.div>
-              
-              <motion.div initial={{
-              opacity: 0,
-              y: 20
-            }} whileInView={{
-              opacity: 1,
-              y: 0
-            }} transition={{
-              duration: 0.5,
-              delay: 0.2
-            }} viewport={{
-              once: true
-            }} className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100">
-                <div className="h-48 bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center">
-                  <Lightbulb className="h-16 w-16 text-white" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Expert Consultation</h3>
-                  <p className="text-gray-600 text-justify">
-                    Our customs experts provide guidance on duty and tax implications, helping you make informed decisions and optimize your international shipping strategy.
-                  </p>
-                </div>
-              </motion.div>
-            </div>
-            
-            {/* Additional Services */}
-            
             
             {/* CTA Section */}
             <motion.div initial={{
