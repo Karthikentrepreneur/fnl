@@ -37,8 +37,8 @@ const ExcellentSolution = () => {
               <img src="/lovable-uploads/gp.jpg" alt="Global Logistics Solutions" className="w-full h-[400px] object-cover" />
             </div>
             <div className="absolute -bottom-6 -right-6 text-white p-6 rounded-xl shadow-lg hidden md:block bg-primary-foreground">
-              <p className="text-3xl font-bold text-primary-foreground">2018</p>
-              <p className="text-sm text-primary-foreground">UAE Operations Started</p>
+              <p className="text-3xl font-bold text-sidebar-primary">2018</p>
+              <p className="text-sm font-medium text-slate-950">UAE Operations Started</p>
             </div>
           </motion.div>
 
