@@ -77,62 +77,15 @@ const Warehousing = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto mb-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-gray-800">
-                Comprehensive Warehousing Services
+                Warehousing & Logistics
               </h2>
               <div className="w-24 h-1 bg-brand-gold mx-auto mb-8"></div>
-              <p className="text-gray-700 mb-6 text-justify">Future Net is a leading supply chain solutions provider in Singapore, offering end-to- end logistics services tailored to a wide range of industries. We manage the full flow of goods—from suppliers to manufacturers (parts and components), from manufacturers to resellers and consumers (finished products), and from consumers back to OEMs (returns and spares).</p>
-            <p className="text-gray-700 mb-6 text-justify">Our advanced warehouses are fully equipped with cutting-edge Warehouse
-Management Systems (WMS), providing complete visibility, real-time inventory
-control, and features like online picking and automated reorder notifications.</p>
-            <p className="text-gray-700 mb-6 text-justify">Our skilled warehouse team is experienced in handling diverse client needs and is
-supported by specialized teams in forwarding and land transportation, ensuring
-seamless integration across the supply chain.</p>
-             <p className="text-gray-700 mb-6 text-justify">With scalable, efficient, and reliable solutions, Future Net helps businesses streamline operations and drive long-term growth.</p>
-            </div>
-            
-            {/* Storage and Distribution Services */}
-            
-            
-            {/* Features Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
-              {[{
-              title: "Consolidation & Deconsolidation",
-              description: "",
-              icon: <Package className="h-5 w-5 text-brand-gold" />
-            }, {
-              title: "Pick & Pack",
-              description: "",
-              icon: <Box className="h-5 w-5 text-brand-gold" />
-            }, {
-              title: "Storage & Distribution",
-              description: "",
-              icon: <Globe className="h-5 w-5 text-brand-gold" />
-            }, {
-              title: "Inventory & Purchase Order Management",
-              description: "",
-              icon: <Timer className="h-5 w-5 text-brand-gold" />
-            }, {
-              title: "Value-Added Services (labelling, kitting, inspections)",
-              description: "",
-              icon: <Shield className="h-5 w-5 text-brand-gold" />
-            }].map((feature, index) => <motion.div key={index} initial={{
-              opacity: 0,
-              y: 20
-            }} whileInView={{
-              opacity: 1,
-              y: 0
-            }} transition={{
-              duration: 0.5,
-              delay: index * 0.1
-            }} viewport={{
-              once: true
-            }} className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
-                  <div className="mb-3 bg-green-50 p-2 rounded-full inline-block">
-                    {feature.icon}
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2 text-gray-800">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.description}</p>
-                </motion.div>)}
+              <p className="text-gray-700 mb-6 text-justify">Future Net Logistics LLC is well equipped to handle the warehousing of various commodities.</p>
+              <p className="text-gray-700 mb-6 text-justify">Warehouse management is a key part of the supply chain and primarily aims to control the movement and storage of materials within a warehouse and process the associated transactions including shipping, receiving, put away and picking. With visibility in to processes that proceed and follow the supply chain link, your warehouse will become an accelerator and not a road block to drive greater profitability and customer satisfaction.</p>
+              <p className="text-gray-700 mb-6 text-justify">The objective of WM is to handle the receipts of stock and manage supplies. WM today is part of supply chain management and also demand management. It also covers the container storage, loading and unloading.</p>
+              <p className="text-gray-700 mb-6 text-justify">An efficient WM gives a cutting edge to retail chain distribution.</p>
+              <p className="text-gray-700 mb-6 text-justify">The company identifies the customer needs and assist to handle in the best possible manner.</p>
+              <p className="text-gray-700 mb-6 text-justify">The company has expertise in handling vanning and devanning of consolidation cargo and arranges to distribute/deliver to respective parties from the warehouse which delivers full satisfaction to its customers.</p>
             </div>
             
             {/* CTA Section */}
