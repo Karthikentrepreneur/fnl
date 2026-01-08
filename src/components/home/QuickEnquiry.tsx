@@ -44,7 +44,7 @@ export const QuickEnquiry = () => {
 
     try {
       const response = await fetch(
-        "https://formsubmit.co/ajax/karthikjungleemara@gmail.com",
+        "https://formsubmit.co/ajax/info@futurenetlogistics.com",
         {
           method: "POST",
           headers: {
